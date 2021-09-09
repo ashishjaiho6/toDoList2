@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html ng-app="todoApp" ng-controller="todoList" ng-click="myFunc()">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme|Exo+2|Galada|Wendy+One|Eater|Gloria+Hallelujah|Permanent+Marker|Amatic+SC|Spirax|Aldrich|Cabin+Sketch|IM+Fell+English+SC|Orbitron|Philosopher|Special+Elite|Indie+Flower|Shrikhand|Shadows+Into+Light|Pacifico|Gloria+Hallelujah|Righteous|Knewave|Concert+One"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!--<div ng-controller="todoList">-->
+  <body class="{{curTheme.name}}">
+    <!--<div ng-controller="todoList">-->
+    <aside id="rem">
+      <button type="click" class="butt" ng-click="remSelected()">
+        clear done
+      </button>
+      <button type="click" class="butt" ng-click="remAll()">clear all</button>
+      <div id="dropdown">
+        <button class="butt" id="dropbutt" ng-click="showThemes()">
+          Themes🔻
+        </button>
+        <div class="dropstuff-{{dispTheme}}">
+           <!-- <li class="theme" ng-repeat="theme in themes">  -->
+          <button
+            class="theme butt {{theme.sel}}"
+            ng-repeat="theme in themes"
+            ng-click="setTheme(theme.pos)"
+          >
+            {{theme.name}}
+          </button>
+          <!--  </li>-->
+        </div>
+      </div>
+    </aside>
+    <h2>Shopping List</h2>
+    <span id="itm" class="butt">Items: {{todos.length}}</span>
+    <ul ng-init="doStuff()">
+      <li ng-repeat="todo in todos">
+        <label class="checkbox">
+          <div class="line-{{todo.done}}">
+            <input type="checkbox" ng-model="todo.done" />
+            <span class="done-{{todo.done}}">{{todo.text}}</span>
+            <label class="edit icon" ng-click="editTodo(todo.pos)">✏️</label>
+            <label class="del icon" ng-click="delTodo(todo.pos)">❌</label>
+          </div>
+        </label>
+      </li>
+    </ul>
+    <form id="sub" ng-submit="addTodo()">
+      <input
+        id="txt"
+        type="text"
+        ng-model="todoText"
+        size="30"
+        placeholder="add new item here"
+      />
+      <input class="butt" type="submit" value="Add" style="font-family: 'Times New Roman', Times, serif;" />
+    </form>
+    <!--</div>-->
+    <script src="index.js"></script>
+  </body>
+</html>

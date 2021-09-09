@@ -1,0 +1,341 @@
+body.spaaace {
+    font-family:'Orbitron';
+    background-image:url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color:white;
+    text-shadow:3px 3px 2px rgba(100,150,100,.75);
+}
+body.wood {
+    font-family:'Philosopher';
+    background-image:url(https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color:grey;
+    text-shadow:3px 3px 2px rgba(50,50,50,.75);
+    background-size:300%;
+}
+body.brick{
+    /*background-image:url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+    background-image:url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Shrikhand', cursive;
+    color:#9E0000;
+    text-shadow:2px 2px 2px rgba(255,118,0,.6);
+}
+body.fuego{
+    background-image:url(https://ashish-images.imgix.net/https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1PmO8E8eTvvHqMow-inFanNyDqpx5zH8J%2Fview%3Fusp%3Dsharing?s=b2af7319d5d5c026590f7640c6a219d5);
+    color:#00D200;
+    font-family: 'Eater';
+    font-family:'Knewave';
+    text-shadow:3px 2px 1px rgba(166,25,0,.7);
+}
+body.nature {
+    /*background-image:url(https://images.pexels.com/photos/1092197/pexels-photo-1092197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);*/
+    background-image:url(https://images.pexels.com/photos/302804/pexels-photo-302804.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color:yellow;
+    /*font-family: 'Amatic SC', cursive;*/
+    font-family:'IM Fell English SC';
+    text-shadow:3px 3px 2px rgba(50,50,50,.5);
+}
+body.painted {
+    background-image:url(https://images.pexels.com/photos/935787/pexels-photo-935787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    color:#8888FF;
+    font-family:Acme;
+    text-shadow:2px 3px 1px rgba(160,160,160,.4);
+}
+body.waves {
+    background-image:url(https://images.pexels.com/photos/355288/pexels-photo-355288.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family: 'Galada', cursive;
+    color:#FFCCEE;
+    text-shadow:3px 2px 1px rgba(240,68,0,.7);
+}
+body.sky {
+    background-image:url(https://images.pexels.com/photos/80476/hayden-valley-yellowstone-valley-landscape-80476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family:'Spirax';
+    color:#222222;
+    text-shadow:3px 3px 3px rgba(120,120,120,.8);
+}
+body.urban {
+    background-image:url(https://images.pexels.com/photos/373498/pexels-photo-373498.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    font-family:'Special Elite';
+    text-shadow:3px 3px 2px rgba(150,70,0,.77);
+}
+body.desert {
+    background-image:url(https://images.unsplash.com/photo-1488456682038-659fb6e7ddf7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=217387f79da94fb3de51f868eeb17b41&auto=format&fit=crop&w=1482&q=80);
+    color:#C0A0FE;
+    font-family:'Righteous';
+}
+
+.done-true {
+    text-decoration: line-through;
+    color: #664444;
+    }
+.nature .done-true {
+    color:rgba(255,255,255,.64);
+}
+.urban .done-true {
+    color:rgba(177,177,187,.7);
+}
+.desert .done-true {
+    color:rgba(178,177,179,.6);
+}
+.line-true{
+    background-color:rgba(0,255,50,.4);
+    box-shadow:3px 2px 2px rgba(255,49,179,.8);
+}
+.wood .line-true {
+    background-color:rgba(202,200,0,.6);
+    box-shadow:3px 2px 2px rgba(255,66,0,.94);
+}
+.brick .line-true {
+    background-color:rgba(0,29,199,.66);
+    box-shadow:3px 2px 2px rgba(255,0,82,.68);
+}
+.fuego .line-true {
+    background-color:rgba(244,244,243,.4);
+    box-shadow:3px 2px 2px rgba(201,28,0,.9);
+}
+.nature .line-true {
+    background-color:rgba(180,45,45,.44);
+    box-shadow:3px 2px 2px rgba(222,222,0,.62);
+}
+.painted .line-true {
+    background-color:rgba(120,120,255,.3);
+    box-shadow:3px 2px 2px rgba(127,0,131,.48);
+}
+.waves .line-true {
+    background-color:rgba(255,100,208,.32);
+    box-shadow:3px 2px 2px rgba(225,94,0,.47);
+}
+.sky .line-true {
+    background-color:rgba(255,255,103,.35);
+    box-shadow:3px 2px 2px rgba(0,97,18,.47);
+}
+.urban .line-true {
+    background-color:rgba(189,44,77,.4);
+    box-shadow:3px 2px 2px rgba(0,222,178,.52);
+}
+.desert .line-true {
+    background-color:rgba(100,100,100,.3);
+    box-shadow:3px 2px 2px rgba(255,121,99,.4);
+}
+.line-false {
+    background-color:rgba(255,49,179,.8);
+    box-shadow:3px 2px 2px rgba(0,255,50,.45);
+}
+.wood .line-false {
+    background-color:rgba(255,66,0,.94);
+    box-shadow:3px 2px 2px rgba(202,200,0,.6);
+}
+.brick .line-false {
+    background-color:rgba(255,0,82,.98);
+    box-shadow:3px 2px 2px rgba(0,29,199,.66);
+}
+.fuego .line-false {
+    background-color:rgba(201,28,0,.89);
+    box-shadow:3px 2px 2px rgba(244,244,243,.4);
+}
+.nature .line-false {
+    background-color:rgba(222,222,0,.92);
+    color:#0000AA;
+    box-shadow:3px 2px 2px rgba(180,45,45,.64);
+}
+.painted .line-false {
+    background-color:rgba(127,0,131,.88);
+    box-shadow:3px 2px 2px rgba(120,120,255,.6);
+}
+.waves .line-false {
+    background-color:rgba(225,94,0,.79);
+    box-shadow:3px 2px 2px rgba(255,100,208,.52);
+}
+.sky .line-false {
+    background-color:rgba(0,97,18,.86);
+    box-shadow:3px 2px 2px rgba(255,255,103,.4);
+    color:#DADADA;
+}
+.urban .line-false {
+    background-color:rgba(0,222,178,.72);
+    box-shadow:3px 2px 2px rgba(189,44,77,.5);
+}
+.desert .line-false {
+    background-color:rgba(255,119,0,.89);
+    box-shadow:3px 2px 2px rgba(100,100,100,.63);
+}
+h2 {
+    text-align:center;
+    font-weight:bolder;
+    font-size:200%;
+}
+.fuego h2 {
+    font-weight:normal;
+}
+.desert h2 {
+    font-weight:normal;
+}
+#rem {
+    position:relative;
+}
+ul li div{
+    list-style-type: none;
+    border-radius:12px;
+    border-style: solid;
+    border-color:grey;
+    vertical-align:center;
+    height:40px;
+    font-size:16pt;
+    position:relative;
+    left:-30px;
+    margin:5px 0px 5px 0px;
+}
+ul {
+    list-style:none;
+}
+.del {
+    right: 5px;
+}
+.edit{
+    right:32px;
+}
+.icon {
+    position:absolute;
+    top:5px;
+    font-size:12pt;
+    text-shadow:none;
+}
+#sub {
+    position:relative;
+    right:-10px;
+}
+.butt {
+    background-color:rgba(200,200,200,.3);
+    border-radius:8px;
+    color:inherit;
+    font-family:inherit;
+}
+.spaaace .butt {
+    color:violet;
+}
+.wood .butt {
+    color:black;
+    background-color:rgba(250,250,250,.6)
+}
+.brick .butt {
+    background-color:rgba(200,200,200,.7);    
+}
+.fuego .butt {
+    color:#00AA00;
+    font-size:75%;
+    background-color:rgba(200,100,100,.75);
+}
+.nature .butt {
+    color:yellow;
+    background-color:rgba(30,57,181,.55);
+}
+.waves .butt {
+    color:white;
+}
+.desert .butt {
+    color:#00FFBA;
+    vertical-align:middle;
+}
+#txt {
+    background-color:rgba(255,255,255,.4);
+    color:white;
+}
+::placeholder {
+    color:rgba(0,0,0,.6)
+}
+#itm {
+    position:relative;
+    top:-10px;
+    color:inherit;
+    padding:3px;
+    background:none;
+}
+.spaaace #itm {
+    background-color:rgba(200,200,200,.3)
+}
+.brick #itm {
+    background-color:rgba(155,155,155,.55);
+}
+.painted #itm {
+    background-color:rgba(120,120,120,.8);
+    padding:2px;
+}
+.nature #itm {
+    background-color:rgba(160,75,75,.55);
+}
+
+#dropdown {
+   position:absolute; 
+   right:0px;
+   top:0px;
+   display:inline-block;
+   z-index:1;
+}
+.dropstuff-true {
+    position:absolute;
+    right:0px;
+}
+.dropstuff-false {
+    display:none;
+}
+.theme {
+    display:block;
+    min-width:80px;
+    opacity:1;
+}
+.painted .theme {
+    background-color:rgba(200,200,200,.8);
+    color:black;
+}   
+.spaaace .theme {
+    background-color:rgba(100,100,100,.86);
+}
+.fuego .theme {
+    background-color:rgba(100,100,100,.6);
+}
+.nature .theme {
+    background-color:rgba(100,100,100,.6);
+}
+.waves .theme {
+    background-color:rgba(100,100,100,.6);
+}
+.sky .theme {
+    background-color:rgba(200,200,200,.85);
+}
+.urban .theme {
+    background-color:rgba(200,200,200,.85)
+}
+.desert .theme {
+    background-color:rgba(100,100,100,.76)
+}
+.theme.y {
+    background-color:rgba(210,255,0,.85);
+    color:black;
+}
+.spaaace .theme.y {
+    background-color:rgba(0,255,50,.8) 
+}
+.brick .theme.y {
+    background-color:rgba(0,29,200,.8) 
+}
+.fuego .theme.y {
+    background-color:rgba(200,200,200,.8) 
+}
+.nature .theme.y {
+    background-color:rgba(254,42,45,.8);
+    color:white;
+}
+.painted .theme.y {
+    background-color:rgba(120,120,255,.8);
+}
+.waves .theme.y {
+    background-color:rgba(255,100,208,.82)
+}
+.sky .theme.y {
+    background-color:rgba(255,255,103,.84)
+}
+.urban .theme.y {
+    background-color:rgba(209,44,77,.87);
+    color:white;
+}
+.desert .theme.y {
+    background-color:rgba(0,255,192,.8);
+}
